@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <!-- <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"> -->
+    <title>Cheese Naans</title>
+    <link rel="stylesheet" href="%PUBLIC_URL%/style.css">
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <div id="map"></div>
+    <script>
+        function mount() {
+          document.getElementById('react-map').appendChild(
+            document.getElementById('map')
+          )
+          window.dispatchEvent(new Event('resize'))
+        }
+
+        function unmount() {
+          document.body.appendChild(
+            document.getElementById('map')
+          )
+        }
+
+        function initMap() {
+          var uluru = {lat: 43.577140, lng: 7.117920};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 14,
+            center: uluru
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+
+          var content = 
+            '<h2>Naans Fast-food Restaurant</h2>' +
+            '<p>42 Boulevard Président Wilson, 06600 Antibes</p>' +
+            '<p>04 83 15 35 77</p>';
+
+          var w = new google.maps.InfoWindow({
+            content: content
+          });
+
+          marker.addListener('click', function() {
+            w.open(map, marker)
+          })
+        }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOSfLGSANjgjOlVVQZqns9vOy9p1TcOYU&callback=initMap">
+      </script>
+  </body>
+</html>

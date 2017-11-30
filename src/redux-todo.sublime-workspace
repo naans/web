@@ -1,0 +1,1416 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is",
+				"isVoyelle"
+			],
+			[
+				"con",
+				"contact-form"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"num",
+				"numbers2"
+			],
+			[
+				"ha",
+				"head2"
+			],
+			[
+				"prints",
+				"printsExactly"
+			],
+			[
+				"out",
+				"outTransformer"
+			],
+			[
+				"Consoe",
+				"ConsoleInterface"
+			],
+			[
+				"su",
+				"subCommands"
+			],
+			[
+				"Te",
+				"TEMPLATES_PATH"
+			],
+			[
+				"te",
+				"templatesLoader"
+			],
+			[
+				"Exce",
+				"Exception"
+			],
+			[
+				"S",
+				"SubCommand"
+			],
+			[
+				"templa",
+				"templatesLoader"
+			],
+			[
+				"Temp",
+				"TemplateInterface"
+			],
+			[
+				"Templa",
+				"TemplateLoaderInterface"
+			],
+			[
+				"tempa",
+				"templatesPath"
+			],
+			[
+				"File",
+				"FilesystemInterface"
+			],
+			[
+				"co",
+				"command"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"PHP",
+				"PHP_EOL"
+			],
+			[
+				"C",
+				"Console"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"preg",
+				"preg_replace"
+			],
+			[
+				"cty",
+				"ctype_print"
+			],
+			[
+				"prev",
+				"previousLine"
+			],
+			[
+				"next",
+				"nextLine"
+			],
+			[
+				"Reso",
+				"ResourceWriter"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"Cons",
+				"ConsoleInterface"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"arg",
+				"arguments"
+			],
+			[
+				"ar",
+				"args"
+			],
+			[
+				"is_s",
+				"is_string"
+			],
+			[
+				"opti",
+				"optional"
+			],
+			[
+				"optio",
+				"optionalSyntax"
+			],
+			[
+				"OB",
+				"object"
+			],
+			[
+				"object",
+				"objectSyntax"
+			],
+			[
+				"obje",
+				"object"
+			],
+			[
+				"objec",
+				"objectSyntax"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"Array",
+				"ArraySyntax"
+			],
+			[
+				"sepa",
+				"separator"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"leve",
+				"level"
+			],
+			[
+				"assert",
+				"assertEquals"
+			],
+			[
+				"asser",
+				"assertParse"
+			],
+			[
+				"Object",
+				"ObjectSyntax"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"items",
+				"itemsLeft"
+			],
+			[
+				"item",
+				"itemIndex"
+			],
+			[
+				"de",
+				"dept_id"
+			],
+			[
+				"Str",
+				"StringSyntax"
+			],
+			[
+				"Numb",
+				"NumberSyntax"
+			],
+			[
+				"E",
+				"ERROR"
+			],
+			[
+				"Bol",
+				"BooleanSyntax"
+			],
+			[
+				"Bool",
+				"BooleanSyntaxTest"
+			],
+			[
+				"To",
+				"Toyor"
+			],
+			[
+				"Spri",
+				"Spirit"
+			],
+			[
+				"A",
+				"Avait"
+			],
+			[
+				"Ma",
+				"Matters"
+			],
+			[
+				"La",
+				"Lavigne"
+			],
+			[
+				"Sla",
+				"SlamDunk"
+			],
+			[
+				"Sad",
+				"Sadness"
+			],
+			[
+				"Na",
+				"Naruto"
+			],
+			[
+				"Da",
+				"Daisuke"
+			],
+			[
+				"Figh",
+				"Fight"
+			],
+			[
+				"M",
+				"Mo9ana3"
+			],
+			[
+				"Wa",
+				"Warriors"
+			],
+			[
+				"Sound",
+				"Soundtrack"
+			],
+			[
+				"In",
+				"Infinite"
+			],
+			[
+				"One",
+				"OnePiece"
+			],
+			[
+				"O",
+				"OST"
+			],
+			[
+				"Jana",
+				"Jannah"
+			],
+			[
+				"Shi",
+				"Shippuden"
+			],
+			[
+				"V",
+				"Very"
+			],
+			[
+				"Good",
+				"Goodbye"
+			],
+			[
+				"For",
+				"Forgive"
+			],
+			[
+				"R",
+				"ROOT"
+			],
+			[
+				"onKe",
+				"onkeypress\tAttr"
+			],
+			[
+				"he",
+				"helloWorld"
+			],
+			[
+				"sta",
+				"state"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"tra",
+				"target"
+			],
+			[
+				"ds",
+				"displayAlreadyDone"
+			],
+			[
+				"uplo",
+				"uploading"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"noti",
+				"notifier"
+			],
+			[
+				"s",
+				"subscribers"
+			],
+			[
+				"models",
+				"modelsAlreadyResolved"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"text",
+				"texts"
+			],
+			[
+				"ur",
+				"urls"
+			],
+			[
+				"modifier",
+				"Modifier"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"ca",
+				"categorie"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"info",
+				"infos"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"err",
+				"errors"
+			],
+			[
+				"subs",
+				"subscriber"
+			],
+			[
+				"classN",
+				"className"
+			],
+			[
+				"c",
+				"children"
+			],
+			[
+				"Categ",
+				"CategoriesList"
+			],
+			[
+				"cate",
+				"categories"
+			],
+			[
+				"a",
+				"admin"
+			],
+			[
+				"cat",
+				"categories"
+			],
+			[
+				"conf",
+				"confirm"
+			],
+			[
+				"d",
+				"doRemove"
+			],
+			[
+				"no",
+				"notifs"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"sub",
+				"subscribe"
+			],
+			[
+				"re",
+				"RemoveButton"
+			],
+			[
+				"edit",
+				"EditButton"
+			],
+			[
+				"Re",
+				"remove"
+			],
+			[
+				"pr",
+				"props"
+			],
+			[
+				"Nab",
+				"NavbarItem"
+			],
+			[
+				"Navba",
+				"NavbarItem"
+			],
+			[
+				"Navb",
+				"Navbar"
+			],
+			[
+				"CATE",
+				"categories"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"r",
+				"resources"
+			],
+			[
+				"g",
+				"googlePictureID"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "App.js",
+			"settings":
+			{
+				"buffer_size": 210,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{\n\t\"folders\":\n\t[\n\t\t{\n\t\t\t\"path\": \"/home/webneat/workspace/projects/lab/react-redux/todo\"\n\t\t}\n\t]\n}\n",
+			"file": "redux-todo.sublime-project",
+			"file_size": 97,
+			"file_write_time": 131553300902057545,
+			"settings":
+			{
+				"buffer_size": 97,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 97.0,
+		"last_filter": "syntabash",
+		"selected_items":
+		[
+			[
+				"syntabash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"reverse",
+				"Permute Lines: Reverse"
+			],
+			[
+				"sync++",
+				"Set Syntax: C++"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"syn",
+				"Set Syntax: PHP"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"u",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"syntajava",
+				"Set Syntax: Java"
+			],
+			[
+				"lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"LOWE",
+				"Convert Case: Lower Case"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"das",
+				"Convert Case: dash-case"
+			],
+			[
+				"snake",
+				"Convert Case: snake_case"
+			],
+			[
+				"LOWEER",
+				"Convert Case: Lower Case"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"syntaphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syntaxplaintext",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"syntaxphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"syntaxc++",
+				"Set Syntax: C++"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"syntyaml",
+				"Set Syntax: YAML"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/webneat/workspace/projects/lab/react-redux/todo",
+		"/home/webneat/workspace/projects/lab/react-redux/todo/src",
+		"/home/webneat/workspace/projects/lab/react-redux/todo/src/Components"
+	],
+	"file_history":
+	[
+		"/home/webneat/workspace/projects/lab/react-redux/todo/src/Components/Navbar.js",
+		"/home/webneat/workspace/projects/lab/react-redux/log.txt",
+		"/home/webneat/workspace/projects/naans/web/src/modules/index.js",
+		"/home/webneat/workspace/projects/naans/web/src/store.js",
+		"/home/webneat/workspace/projects/lab/javancais.js",
+		"/home/webneat/workspace/projects/lab/javancais.test.js",
+		"/home/webneat/workspace/projects/commands/bin/droplet",
+		"/home/webneat/workspace/projects/commands/droplets.json",
+		"/home/webneat/workspace/projects/commands/data.json",
+		"/home/webneat/.bash_aliases",
+		"/home/webneat/.bash_functions",
+		"/home/webneat/workspace/setup/modules/node.bash",
+		"/home/webneat/.bashrc",
+		"/home/webneat/workspace/droplets/lamp/www/node.dohodl/main.js",
+		"/home/webneat/workspace/droplets/lamp/sites/node.dohodl.com.conf",
+		"/home/webneat/workspace/droplets/lamp/www/test.dohodl/public/index.html",
+		"/home/webneat/.bash_constants",
+		"/home/webneat/workspace/projects/dohodl/app.js",
+		"/home/webneat/workspace/projects/dohodl/public/index.html",
+		"/home/webneat/workspace/projects/dohodl/index.html",
+		"/home/webneat/workspace/projects/dohodl/public/css/bootstrap.yeti.min.css",
+		"/home/webneat/workspace/projects/dohodl/public/js/app.js",
+		"/home/webneat/workspace/projects/dohodl/values.json",
+		"/home/webneat/lab/cpp/merge.cpp",
+		"/home/webneat/Desktop/path.txt",
+		"/home/webneat/workspace/projects/tarsana/tarsana/bootstrap.php",
+		"/home/webneat/workspace/projects/tarsana/tarsana/src/Commands/TarsanaCommand.php",
+		"/home/webneat/workspace/projects/tarsana/tarsana/bin/tarsana",
+		"/home/webneat/workspace/projects/tarsana/tarsana/composer.lock",
+		"/home/webneat/workspace/projects/tarsana/tarsana/.gitignore",
+		"/home/webneat/workspace/projects/tarsana/tarsana/composer.json",
+		"/home/webneat/workspace/projects/tarsana/tarsana/README.md",
+		"/home/webneat/workspace/projects/tarsana/command/README.md",
+		"/home/webneat/workspace/projects/tarsana/command/examples/tests/RepeatCommandTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/tester/CommandTestCase.php",
+		"/home/webneat/workspace/projects/tarsana/command/examples/tests/ListCommandTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/examples/HelloWorld.php",
+		"/home/webneat/workspace/projects/tarsana/command/hello.php",
+		"/home/webneat/workspace/projects/tarsana/command/examples/ListCommand.php",
+		"/home/webneat/workspace/projects/tarsana/command/composer.json",
+		"/home/webneat/workspace/projects/tarsana/command/examples/tests/HelloWorldTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/examples/RenderCommand.php",
+		"/home/webneat/workspace/projects/tarsana/command/examples/tests/RenderCommandTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Commands/VersionCommand.php",
+		"/home/webneat/workspace/projects/tarsana/command/tests/Acceptance/ShowsHelpTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Commands/HelpCommand.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Command.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Console/Console.php",
+		"/home/webneat/workspace/projects/tarsana/command/phpunit.xml",
+		"/home/webneat/workspace/projects/tarsana/command/templates/hello.twig",
+		"/home/webneat/workspace/projects/tarsana/command/src/Console/OutTransformer.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Interfaces/Console/ConsoleInterface.php",
+		"/home/webneat/workspace/projects/tarsana/command/lab.php",
+		"/home/webneat/workspace/projects/tarsana/command/tests/Unit/Console/ExceptionPrinterTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/tests/Acceptance/RendersTemplatesTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Template/Twig/TwigLoader.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Interfaces/Template/TemplateInterface.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Template/Twig/TwigTemplate.php",
+		"/home/webneat/workspace/projects/tarsana/command/tests/bootstrap.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Console/ExceptionPrinter.php",
+		"/home/webneat/workspace/projects/tarsana/command/vendor/tarsana/syntax/src/Exceptions/ParseException.php",
+		"/home/webneat/workspace/projects/tarsana/command/tests/Acceptance/CanHaveSubCommandsTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/SubCommand.php",
+		"/home/webneat/workspace/projects/tarsana/command/tests/Unit/Template/TemplateLoaderTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Template/TemplateLoader.php",
+		"/home/webneat/workspace/projects/tarsana/command/tester/Mocks/Transformer.php",
+		"/home/webneat/workspace/projects/tarsana/command/.travis.yml",
+		"/home/webneat/workspace/projects/tarsana/command/tests/Acceptance/HandlesFilesystemTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/tests/resources/templates/hello.twig",
+		"/home/webneat/workspace/projects/tarsana/command/tests/Acceptance/PrintsToConsoleTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/tests/Acceptance/ShowsVersionTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Interfaces/Template/TemplateLoaderInterface.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Template/Twig/Loader.php",
+		"/home/webneat/workspace/projects/tarsana/command/vendor/tarsana/io/src/Filesystem.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Interfaces/Console/TransformerInterface.php",
+		"/home/webneat/workspace/projects/tarsana/command/features.todo",
+		"/home/webneat/workspace/projects/tarsana/command/src/TemplateLoader.php",
+		"/home/webneat/workspace/projects/tarsana/command/.gitignore",
+		"/home/webneat/workspace/projects/tarsana/command/tests/Acceptance/ParsesArgumentsTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/ExceptionPrinter.php",
+		"/home/webneat/workspace/projects/tarsana/command/tests/Commands/HelpCommandTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Console.php",
+		"/home/webneat/workspace/projects/tarsana/command/tests/Acceptance/CanBeFiredTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/InteractiveConsole.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Console/SyntaxPrinter.php",
+		"/home/webneat/Desktop/dbch/week.md",
+		"/home/webneat/workspace/projects/tarsana/command/src/Interfaces/TransformerInterface.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Console/Transformer.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Interfaces/ConsoleInterface.php",
+		"/home/webneat/workspace/projects/tarsana/command/tests/CommandTest.php",
+		"/home/webneat/workspace/projects/tarsana/command/tests/acceptance",
+		"/home/webneat/workspace/projects/tarsana/command/tests/unit",
+		"/home/webneat/lab/c/app.c",
+		"/home/webneat/workspace/projects/tarsana/command/tests/Commands/HelloWorld.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Interfaces/Console.php",
+		"/home/webneat/workspace/projects/tarsana/command/design/usage.php",
+		"/home/webneat/workspace/projects/tarsana/command/src/Traits/Arguments.php",
+		"/home/webneat/workspace/projects/tarsana/command/features.md",
+		"/home/webneat/workspace/projects/tarsana/syntax/src/Factory.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/.scrutinizer.yml",
+		"/home/webneat/workspace/projects/tarsana/syntax/.gitignore",
+		"/home/webneat/workspace/projects/tarsana/syntax/README.md",
+		"/home/webneat/workspace/projects/tarsana/syntax/examples/short-example.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/tests/SyntaxSyntaxTest.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/src/SyntaxSyntax.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/src/Text.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/tests/ArraySyntaxTest.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/tests/ObjectSyntaxTest.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/src/ObjectSyntax.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/tests/TestCase.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/src/ArraySyntax.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/src/Syntax.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/src/Debugger.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/src/StringSyntax.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/src/NumberSyntax.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/lab.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/tests/StringSyntaxTest.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/src/BooleanSyntax.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/tests/NumberSyntaxTest.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/tests/BooleanSyntaxTest.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/tests/OptionalSyntaxTest.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/.travis.yml",
+		"/home/webneat/workspace/projects/tarsana/syntax/tests/FactoryTest.php",
+		"/home/webneat/Desktop/bouchaal",
+		"/home/webneat/workspace/projects/tarsana/syntax/src/OptionalSyntax.php",
+		"/home/webneat/Desktop/solution.java",
+		"/home/webneat/workspace/projects/tarsana/syntax/src/Exceptions/Exception.php",
+		"/home/webneat/workspace/projects/tarsana/syntax/src/Exceptions/ParseException.php"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			"",
+			"-vendor/*,-node-modules/*",
+			"/home/webneat/workspace/projects/naans/tests",
+			"/home/webneat/workspace/projects/naans/api",
+			"src/",
+			"lib/",
+			"lib",
+			"-vendor"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"div",
+			"Home",
+			"wordpress",
+			"db_data",
+			"decode",
+			"encode",
+			"isConsonne",
+			"Comamnd",
+			"run",
+			"ip",
+			"138.197.122.73",
+			"lamp",
+			"159.203.122.195",
+			"droplet",
+			"test",
+			"~",
+			"}",
+			"aliases",
+			"\"",
+			": ",
+			"{",
+			"renderCoin",
+			"'},",
+			"TEMPLATES_PATH",
+			"tester",
+			"public",
+			"stdin",
+			"var",
+			"commands",
+			"$command",
+			"$this->outTransformer->",
+			"$this->outTransformer",
+			"describe",
+			"function ",
+			" == ",
+			"== ",
+			"TemplateLoader",
+			"\\",
+			"Twig_TemplateInterface",
+			"templates",
+			"False",
+			"\\n",
+			"$file",
+			"$files",
+			"$file->extension()",
+			"self::$providers",
+			"Interface",
+			"commands",
+			"$this->args->command",
+			"name",
+			"$this->command",
+			"syntax",
+			"links.",
+			"info",
+			"success",
+			"info",
+			"warn",
+			"invalid",
+			"warn",
+			"info",
+			"error",
+			"$1",
+			"=>",
+			"OutTransformer",
+			"Console",
+			"args",
+			"HelloWorld",
+			") : ConsoleInterface",
+			": Console",
+			"echo '",
+			"Console",
+			"out",
+			";",
+			"Console;",
+			"Console",
+			";",
+			"var_dump",
+			"['",
+			"value",
+			"flags",
+			"options",
+			"description",
+			"some-file",
+			"d Dumping Optional Syntaxes",
+			"Parsing and Dumping Optional Syntaxes",
+			"new StringSyntax",
+			"new NumberSyntax",
+			"string",
+			"//",
+			"S::obj",
+			"T::",
+			"optional",
+			"Optional",
+			"objectSyntax",
+			"friends",
+			"is_programmer",
+			"string",
+			"boolean",
+			"string",
+			"$syntax = ",
+			"else",
+			"$i->text",
+			"$text",
+			"\");\n",
+			"return",
+			"Object",
+			"$name",
+			"_string",
+			"$unwrap",
+			"$result[]",
+			"[$this, 'assertEquals'], ",
+			":",
+			"ArraySyntax",
+			"array",
+			"Boolean",
+			"boolean",
+			"Boolean",
+			"boolean",
+			"'Unknown'",
+			"String",
+			"string",
+			"public static function",
+			"String",
+			"StringSyntax",
+			"string",
+			"separator",
+			"array",
+			","
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\n",
+			" \n",
+			"Tarsana\\IO\\Exceptions\\",
+			"Tarsana\\IO\\Mocks",
+			"Tarsana\\IO\\Interfaces"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "redux-todo.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 97,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.ShellCommand":
+	{
+		"height": 164.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 164.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.myOutput":
+	{
+		"height": 164.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 158.0
+	},
+	"pinned_build_system": "",
+	"project": "redux-todo.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"tar",
+				"src/Commands/TarsanaCommand.php"
+			],
+			[
+				"hell",
+				"hello.php"
+			],
+			[
+				"lab",
+				"lab.php"
+			],
+			[
+				"outr",
+				"src/Console/OutTransformer.php"
+			],
+			[
+				"outt",
+				"src/Console/OutTransformer.php"
+			],
+			[
+				"conso",
+				"src/Console.php"
+			],
+			[
+				"text",
+				"src/Text.php"
+			],
+			[
+				"number",
+				"src/NumberSyntax.php"
+			],
+			[
+				"obj",
+				"src/ObjectSyntax.php"
+			],
+			[
+				"object",
+				"tests/ObjectSyntaxTest.php"
+			],
+			[
+				"test",
+				"tests/TestCase.php"
+			],
+			[
+				"fac",
+				"src/Factory.php"
+			],
+			[
+				"bool",
+				"src/BooleanSyntax.php"
+			],
+			[
+				"env.p",
+				"lib/Config/Env.php"
+			],
+			[
+				"exporttest",
+				"tests/unit/Subscribers/ImportExport/Export/ExportTest.php"
+			],
+			[
+				"navbar",
+				"ui/styles/navbar.styl"
+			],
+			[
+				"app.sty",
+				"ui/styles/app.styl"
+			],
+			[
+				"navbar.sty",
+				"ui/styles/navbar.styl"
+			],
+			[
+				"normalize.css",
+				"node_modules/normalize.css/normalize.css"
+			],
+			[
+				"menu",
+				"app/resources/menu.js"
+			],
+			[
+				"in",
+				"lab/index.pug"
+			],
+			[
+				"ou",
+				"out.txt"
+			],
+			[
+				"m",
+				"main.js"
+			],
+			[
+				"a",
+				"a.js"
+			],
+			[
+				"",
+				"main.js"
+			],
+			[
+				"mai",
+				"main.js"
+			],
+			[
+				"shortcodehe",
+				"lib/Newsletter/Shortcodes/ShortcodesHelper.php"
+			],
+			[
+				"shortcodes",
+				"lib/Newsletter/Shortcodes/ShortcodesHelper.php"
+			],
+			[
+				"mailertest",
+				"tests/unit/Mailer/MailerTest.php"
+			],
+			[
+				"sched",
+				"tests/unit/Cron/Workers/SchedulerTest.php"
+			],
+			[
+				"mailch",
+				"tests/unit/Subscribers/ImportExport/Import/MailChimpTest.php"
+			],
+			[
+				"email",
+				"newsletters/src/Email/Email.php"
+			],
+			[
+				"news",
+				"newsletters/src/Email/Newsletter.php"
+			],
+			[
+				"subslist",
+				"newsletters/src/SubscribersList.php"
+			],
+			[
+				"subsc",
+				"newsletters/src/Subscriber.php"
+			],
+			[
+				"string",
+				"src/StringSyntax.php"
+			],
+			[
+				"boolea",
+				"src/BooleanSyntax.php"
+			],
+			[
+				"booleantest",
+				"tests/BooleanSyntaxTest.php"
+			],
+			[
+				"arg",
+				"src/Argument/ArgumentFormatLoader.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "comma",
+		"selected_items":
+		[
+			[
+				"comma",
+				"~/workspace/projects/tarsana/command/tarsana-command.sublime-project"
+			],
+			[
+				"syntax",
+				"~/workspace/projects/tarsana/syntax/tarsana-syntax.sublime-project"
+			],
+			[
+				"lum",
+				"~/workspace/projects/lumen-generators/lumen-generators.sublime-project"
+			],
+			[
+				"lume",
+				"~/workspace/projects/lumen-generators/lumen-generators.sublime-project"
+			],
+			[
+				"tarsa",
+				"~/workspace/projects/tarsana/tarsana/tarsana.sublime-project"
+			],
+			[
+				"bitt",
+				"~/workspace/projects/bittrex/bittrex.sublime-project"
+			],
+			[
+				"bittr",
+				"~/workspace/projects/bittrex/bittrex.sublime-project"
+			],
+			[
+				"io",
+				"~/workspace/projects/tarsana/io/tarsana-io.sublime-project"
+			],
+			[
+				"syn",
+				"~/workspace/projects/tarsana/syntax/tarsana-syntax.sublime-project"
+			],
+			[
+				"s",
+				"~/workspace/projects/tarsana/syntax/tarsana-syntax.sublime-project"
+			],
+			[
+				"synta",
+				"~/workspace/projects/tarsana/syntax/tarsana-syntax.sublime-project"
+			],
+			[
+				"mail",
+				"~/workspace/projects/mailpoet/mailpoet.sublime-project"
+			],
+			[
+				"synt",
+				"~/workspace/projects/tarsana/syntax/tarsana-syntax.sublime-project"
+			],
+			[
+				"mai",
+				"~/workspace/projects/mailpoet/mailpoet.sublime-project"
+			],
+			[
+				"m",
+				"~/workspace/projects/mailpoet/mailpoet.sublime-project"
+			],
+			[
+				"",
+				"~/workspace/projects/tarsana/tarsana/tarsana.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
