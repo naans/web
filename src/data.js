@@ -76,7 +76,7 @@ const allMeals = [{
 	name: 'Kebab',
 	label: 'classic',
 	color: 'secondary',
-	description: 'Lahelle de kebab de volaille',
+	description: 'Lamelle de kebab de volaille',
 	picture: '/pictures/300x300.png',
 	price: 5.5,
 	extras: [{
@@ -365,7 +365,7 @@ const allMeals = [{
 	name: 'Tiramisu',
 	description: 'Choix: Oreo, Kinder, Nutella, Fraise, ...',
 	picture: '/pictures/300x300.png',
-	price: 2.5,
+	price: 3,
 	extras: []
 }]
 
