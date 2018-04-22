@@ -6,9 +6,7 @@ import Infos from '../Components/Infos'
 export default props => (
   <div>
     <Slider />
-    <hr/>
     <Cards />
-    <hr />
     <Infos />
   </div>
 )

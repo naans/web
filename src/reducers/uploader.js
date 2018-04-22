@@ -4,7 +4,7 @@ import {merge} from 'ramda'
 // 	uploading: Boolean
 // }
 
-export default (state = {shown: false, uploading: false}, action) => {
+export default (state = {uploading: false}, action) => {
 	switch(action.type) {
 		case 'UPLOADER_START':
 			return merge(state, {uploading: true})

@@ -1,6 +1,6 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import {prop} from 'ramda'
+import {path, merge, map} from 'ramda'
 import {
   Carousel,
   CarouselItem,
@@ -8,12 +8,16 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap'
-import data from '../data'
+import {get} from '../api'
 
 const make = connect(
-	prop('slider'),
-	dispatch => ({
-    init: slides => dispatch({type: 'SLIDER_SLIDES', payload: slides}),
+  state => merge(state.slider, path(['data', 'slides'], state) || {loadingItems: true}),
+  dispatch => ({
+    init: () => dispatch({type: 'DATA_LOADING_COLLECTION', payload: {collection: 'slides'}}),
+    load: items => {
+      dispatch({type: 'DATA_COLLECTION_LOADED', payload: {collection: 'slides', items}})
+      dispatch({type: 'SLIDER_LENGTH', payload: items.length})
+    },
     onExiting: () => dispatch({type: 'SLIDER_EXITING'}),
     onExited: () => dispatch({type: 'SLIDER_EXITED'}),
     next: () => dispatch({type: 'SLIDER_NEXT'}),
@@ -24,24 +28,28 @@ const make = connect(
 
 class Slider extends React.Component {
   componentWillMount() {
-    const {init} = this.props 
-    data.slides().then(init)
+    const {init, load} = this.props
+    init() 
+    get('/slides')
+    .then(map(_ => merge(_, {key: _.id})))
+    .then(load)
   }
   render() {
-    const {slides, activeIndex, next, previous, goToIndex, onExited, onExiting} = this.props
-    return (
+    const {loadingItems, items, activeIndex, next, previous, goToIndex, onExited, onExiting} = this.props
+    if (loadingItems || items.length == 0) return null
+    return <div>
       <Carousel
         activeIndex={activeIndex}
         next={next}
         previous={previous}
         style={{height: 500}}
       >
-        <CarouselIndicators items={slides} activeIndex={activeIndex} onClickHandler={goToIndex} />
-        {slides.map(({key, picture, description}) => (
+        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+        {items.map(({id, picture, description}) => (
           <CarouselItem
             onExiting={onExiting}
             onExited={onExited}
-            key={key}
+            key={id}
             src={picture}
             altText={description}
           >
@@ -51,7 +59,8 @@ class Slider extends React.Component {
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
       </Carousel>
-    )
+    <hr/>
+    </div>
   }
 }
 

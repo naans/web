@@ -1,8 +1,7 @@
 import {merge} from 'ramda'
 import {SubmissionError} from 'redux-form'
 import store from './store'
-
-const API_URL = 'http://localhost:3001'
+import {API_URL} from './config'
 
 const request = (method, uri, options = {}) => {
 	if (options.body) {

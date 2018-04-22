@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#000000">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <!-- <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"> -->
-    <title>Cheese Naans</title>
+    <title>Naans Restaurant & FastFood</title>
     <link rel="stylesheet" href="%PUBLIC_URL%/style.css">
   </head>
   <body>
@@ -39,19 +39,6 @@
             position: uluru,
             map: map
           });
-
-          var content = 
-            '<h2>Naans Fast-food Restaurant</h2>' +
-            '<p>42 Boulevard Président Wilson, 06600 Antibes</p>' +
-            '<p>04 83 15 35 77</p>';
-
-          var w = new google.maps.InfoWindow({
-            content: content
-          });
-
-          marker.addListener('click', function() {
-            w.open(map, marker)
-          })
         }
       </script>
       <script async defer

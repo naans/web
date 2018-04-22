@@ -16,12 +16,6 @@ const fields = [{
 	type: 'picture',
 	placeholder: 'Photo'
 }, {
-	name: 'category',
-	type: 'select',
-	collection: 'categories',
-	label: _ => _.name,
-	placeholder: 'Categorie de l\'article'
-}, {
 	name: 'description',
 	type: 'text',
 	placeholder: 'Description de l\'article'
@@ -29,10 +23,15 @@ const fields = [{
 	name: 'price',
 	type: 'text',
 	placeholder: 'Prix de l\'article en EURO'
+}, {
+	name: 'featured',
+	type: 'checkbox',
+	placeholder: 'C\'est un plat du jour'
 }]
 
-export default admin({
+export default {
 	collection: 'meals',
+	title: 'Les articles',
 	fields: fields,
 	children: [Extras],
 	list: {
@@ -56,4 +55,4 @@ export default admin({
 	remove: {
 		Message: ({name}) => <div>Etes vous sure de vouloir supprimer l'article <strong>{name}</strong> ?</div>
 	}
-})
+}

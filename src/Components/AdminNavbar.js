@@ -25,11 +25,12 @@ class Navbar extends React.Component {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem><NavLink href="javascript:" onClick={navigateTo('/admin/slides')}>Photos</NavLink></NavItem>
-            <NavItem><NavLink href="javascript:" onClick={navigateTo('/admin/categories')}>Categories</NavLink></NavItem>
-            <NavItem><NavLink href="javascript:" onClick={navigateTo('/admin/meals')}>Articles</NavLink></NavItem>
+            <NavItem><NavLink href="javascript:" onClick={navigateTo('/admin/slides/list')}>Photos</NavLink></NavItem>
+            <NavItem><NavLink href="javascript:" onClick={navigateTo('/admin/categories/list')}>Categories</NavLink></NavItem>
+            <NavItem><NavLink href="javascript:" onClick={navigateTo('/admin/infos')}>Informations</NavLink></NavItem>
           </Nav>
           <Nav className="ml-auto" navbar>
+            <NavItem><NavLink href="javascript:" onClick={navigateTo('/admin/password')}>Changer le mot de passe</NavLink></NavItem>
             <NavItem><NavLink href="javascript:" onClick={logout}>Se deconnecter</NavLink></NavItem>
           </Nav>
         </Collapse>

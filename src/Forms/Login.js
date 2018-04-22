@@ -20,6 +20,6 @@ export default make(({error, handleSubmit, submitting}) => (
     {error && <Alert color="danger">{error}</Alert>}
     <Field type="text" name="name" placeholder="Votre nom d'utilisateur" />
     <Field type="password" name="password" placeholder="Votre mot de passe" />
-    <Button type="submit" disabled={submitting}>Se connecter</Button>
+    <Button type="submit" color="success" disabled={submitting}>Se connecter</Button>
   </Form>
 ))

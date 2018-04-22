@@ -30,7 +30,7 @@ export default ({collection, children, urls, uris, fields, title}) => {
 
 	class Edit extends React.Component {
 		componentWillMount() {
-			const id = this.props.match.params[collection]
+			const id = this.props.match.params[collection] || ''
 				, {initItem, loadItem, navigateTo} = this.props
 			console.log(this.props.match.params)
 			initItem()
@@ -39,7 +39,7 @@ export default ({collection, children, urls, uris, fields, title}) => {
 		}
 		
 		submit(data) {
-			const id = this.props.match.params[collection]
+			const id = this.props.match.params[collection] || ''
 			return put(`${uris.item}${id}`, data)
 			.then(() => store.dispatch(push(urls.list)))
 		}

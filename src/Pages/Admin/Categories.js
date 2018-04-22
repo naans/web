@@ -5,6 +5,7 @@ import {
   CardTitle, CardText, CardImg
 } from 'reactstrap'
 import admin from '../../admin'
+import Meals from './Meals'
 
 const fields = [{
 	name: 'name',
@@ -31,6 +32,7 @@ const fields = [{
 export default admin({
 	collection: 'categories',
 	fields: fields,
+	children: [Meals],
 	list: {
 		Item: ({name, picture, description}) => (
 			<Card>

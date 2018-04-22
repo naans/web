@@ -17,52 +17,28 @@ const fields = [{
 	placeholder: 'Prix de du supplement en EURO'
 }]
 
-const Admin = ({match}) => {
-	const id = match.params.meal
-	const TheAdmin = admin({
-		collection: 'extras',
-		fields: fields,
-		urls: {
-			list: `/admin/meals/edit/${id}`,
-			add: `/admin/meals/edit/${id}/extras/add`,
-			edit: `/admin/meals/edit/${id}/extras/edit`,
-			remove: `/admin/meals/edit/${id}/extras/remove/`
-		},
-		uris: {
-			collection: `/meals/${id}/extras`,
-			item: `/extras/`
-		},
-		list: {
-			Item: ({name, price}) => (
-				<Card>
-				  <CardBody>
-				    <CardTitle>{name}</CardTitle>
-				    <CardText>{price} &euro;</CardText>
-				  </CardBody>
-				</Card>
-			)
-		},
-		add: {
-			title: 'Ajouter un supplement',
-			initialValues: {}
-		},
-		edit: {
-			title: 'Modifier un supplement',
-		},
-		remove: {
-			Message: ({name}) => <div>Etes vous sure de vouloir supprimer le supplement <strong>{name}</strong> ?</div>
-		}
-	})
-
-	return <div>
-	  <br/>
-	  <h2>Supplements</h2>
-      <TheAdmin />
-	</div>
+export default {
+	collection: 'extras',
+	title: 'Supplements',
+	fields: fields,
+	list: {
+		Item: ({name, price}) => (
+			<Card>
+			  <CardBody>
+			    <CardTitle>{name}</CardTitle>
+			    <CardText>{price} &euro;</CardText>
+			  </CardBody>
+			</Card>
+		)
+	},
+	add: {
+		title: 'Ajouter un supplement',
+		initialValues: {}
+	},
+	edit: {
+		title: 'Modifier un supplement',
+	},
+	remove: {
+		Message: ({name}) => <div>Etes vous sure de vouloir supprimer le supplement <strong>{name}</strong> ?</div>
+	}
 }
-
-export default () => (
-	<Switch>
-	    <Route path="/admin/meals/edit/:meal" component={Admin}/>
-	</Switch>
-)

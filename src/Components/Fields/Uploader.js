@@ -4,8 +4,7 @@ import {merge, path} from 'ramda'
 import {Alert} from 'reactstrap'
 import {last} from 'ramda'
 import {post, remove} from '../../api'
-
-const IMAGE_MAX_SIZE = 20000000
+import {IMAGE_MAX_SIZE} from '../../config'
 
 const make = connect(
 	state => merge(state.uploader, {pictures: path(['data', 'pictures', 'items']) || []}),

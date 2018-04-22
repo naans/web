@@ -13,7 +13,7 @@ export {
 	makeRemove as remove
 }
 
-export default ({collection, urls, uris, fields, list, add, edit, remove}) => {
+const admin = ({collection, children, urls, uris, fields, list, add, edit, remove}) => {
 	urls = merge({
 		list: `/admin/${collection}/list`,
 		add: `/admin/${collection}/add`,
@@ -24,18 +24,47 @@ export default ({collection, urls, uris, fields, list, add, edit, remove}) => {
 		collection: `/${collection}`,
 		item: `/${collection}/`
 	}, uris || {})
+	children = (children || []).map(child => ({
+		title: child.title,
+		path: `${urls.edit}:id`,
+		ChildAdmin: ({match}) => {
+			const id = match.params.id
+			const Admin = admin(merge({
+				urls: {
+					list: `${urls.edit}${id}`,
+					add: `${urls.edit}${id}/${child.collection}/add`,
+					edit: `${urls.edit}${id}/${child.collection}/edit/`,
+					remove: `${urls.edit}${id}/${child.collection}/remove/`
+				},
+				uris: {
+					collection: `/${collection}/${id}/${child.collection}`,
+					item: `/${child.collection}/`
+				}
+			}, child))
+			return <Admin/>
+		}
+	}))
+
 	const List = makeList({collection, urls, uris, ...list})
 	const Add = makeAdd({collection, urls, uris, fields, ...add})
 	const Edit = makeEdit({collection, urls, uris, fields, ...edit})
 	const Remove = makeRemove({collection, urls, uris, ...remove})
 
-	return () => (
+	return () => <div>
 		<Switch>
 		    <Route path={urls.add} component={Add}/>
-		    <Route path={urls.edit + ':' + collection} component={Edit}/>
+		    <Route exact path={urls.edit + ':' + collection} component={Edit}/>
 		    <Route path={urls.remove + ':' + collection} component={Remove}/>
-		    <Route path={urls.list} component={List}/>
-		    <Redirect to={urls.list}/>
+		    <Route exact path={urls.list} component={List}/>
 		</Switch>
-	)
+		{children.map(({path, title, ChildAdmin}) => <div>
+		  <Switch><Route 
+		  	exact path={path} 
+		  	component={() => <div><hr/><h2>{title}</h2></div>}
+		  /></Switch>
+		  <Switch><Route path={path} component={ChildAdmin}/></Switch>
+		</div>)}
+	</div>
 }
+
+export default admin

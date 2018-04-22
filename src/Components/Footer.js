@@ -1,24 +1,20 @@
 import React from 'react'
 import {push} from 'react-router-redux'
 import {connect} from 'react-redux'
-import {prop} from 'ramda'
+import {path} from 'ramda'
 import {Button, Navbar as BNavbar, Collapse, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink} from 'reactstrap'
-import data from '../data'
+import {get} from '../api'
+import {INFOS_ID} from '../config'
 
 const make = connect(
-  prop('infos'),
-	dispatch => ({
-    init: infos => dispatch({type: 'INFOS_INIT', payload: infos})
-	})
+  state => path(['data', 'infos'], state) || {loadingItem: true}
 )
 
 class Footer extends React.Component {
-  componentWillMount() {
-    const {init} = this.props 
-    data.infos().then(init)
-  }
   render() {
-    const {facebook, google} = this.props
+    const {loadingItem, item} = this.props
+    if (loadingItem) return null
+    const {facebook, google} = item
     return (
       <BNavbar dark color="dark" expand="md">
           <Nav className="ml-auto" navbar>

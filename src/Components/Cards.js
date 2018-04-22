@@ -1,12 +1,12 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {push} from 'react-router-redux'
-import {pick} from 'ramda'
+import {map} from 'ramda'
 import {
-  Row, Col, Button,
-  Card, CardTitle, CardText, CardImg, CardImgOverlay
+  Row, Col, Button, Badge,
+  Card, CardTitle, CardText, CardImg, CardBody
 } from 'reactstrap'
-import data from '../data'
+import {get} from '../api'
 
 const make = connect(
 	state => ({cards: state.cards || []}),
@@ -18,26 +18,33 @@ const make = connect(
 
 class Cards extends React.Component {
   componentWillMount() {
-    const {init} = this.props 
-    data.cards().then(init)
+    const {init} = this.props
+    get('/categories?where=showOnHomePage:true')
+    .then(map(_ => ({
+      id: _.id, 
+      title: _.name, 
+      picture: _.picture, 
+      description: _.description,
+      url: `/repas/${_.name}`
+    })))
+    .then(init)
   }
   render() {
     const {cards, navigateTo} = this.props
     return (
+      <div>
       <Row>
-      {cards.map(({id, title, picture, description, url}) =>
+      {cards.map(({id, title, picture, description, price, url}) =>
         <Col key={id} xs="12" sm="6" md="3">
-          <Card inverse>
+          <Card>
             <CardImg src={picture} alt={title} />
-            <CardImgOverlay>
-              <CardTitle>{title}</CardTitle>
-              <CardText>{description}</CardText>
-            </CardImgOverlay>
           </Card>
-          <Button block color="primary" onClick={navigateTo(url)}>Voir</Button>
+          <a className="btn btn-primary" style={{display: 'block'}} href="javascript:" onClick={navigateTo(url)}>{title}</a>
         </Col>
       )}
       </Row>
+      <hr/>
+      </div>
     )
   }
 }
